@@ -3,7 +3,7 @@
 using namespace std;
 
 string encryptCaesarCipher(const string& message, int rotation) {
-    string encryptedMessage = ""; 
+    string encryptedMessage = "";  
 
     for (char ch : message) {
         if (isalpha(ch)) {
